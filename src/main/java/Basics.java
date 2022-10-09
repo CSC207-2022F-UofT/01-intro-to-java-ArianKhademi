@@ -147,8 +147,8 @@ public class Basics {
         // Fill in the rest of the body here
         String[] words = to_split.split(" ");
 
-        for (int i = 0; i < words.length; i++){
-            ret.append(words[i].charAt(0));
+        for (int j = 0; j < words.length; j++){
+            ret.append(words[j].charAt(0));
         }
 
         return ret.toString();
